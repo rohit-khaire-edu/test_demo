@@ -1,0 +1,23 @@
+created directory and changed directory
+$git init    #initialize empty Git repository
+
+#config
+git config --global user.name "rohit-khaire-edu"
+git config --global user.email "test@gmail.com"
+
+created a file and added some lines in it and saved it
+$git add demo.txt #to add it to stage area, previously it was in Untracked files
+
+$git status  #Changes to be committed=> new file:demo.txt
+
+$git commit -m "Simple Text"  #commited it
+
+Now git status is nothing to commit
+
+$git config --list   #view config
+
+$git remote add origin "https://github.com/rohit-khaire-edu/test_demo.git"    #add remote repo
+
+$git remote -v  #Verify remote URL
+
+$git push origin master  #push to remote repo
